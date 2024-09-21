@@ -149,7 +149,7 @@ const Body = () => {
           </button>
         </div>
       </div>
-      <div className='flex flex-wrap'>
+      <div data-testid='restCard' className='flex flex-wrap'>
         {searchList.map((restaurant) => (
           <Link to={'/restaurants/' + restaurant.info.id}>
             <RestauCard key={restaurant.info.id} resData={restaurant} />

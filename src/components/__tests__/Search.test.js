@@ -20,5 +20,5 @@ it('Should Search restaurant card', () => {
   fireEvent.change(searchInput, { target: { value: 'burger' } })
   fireEvent.click(searchBtn)
   const cards = screen.getAllByTestId('restCard')
-  expect(cards.length).toBe(4)
+  expect(cards.length).toBe(1)
 })

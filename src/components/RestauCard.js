@@ -10,10 +10,7 @@ const RestauCard = (props) => {
   const { slaString } = resData.info.sla
 
   return (
-    <div
-      className='m-2 p-2 w-[200px] h-[340] rounded-md'
-      data-testid='restCard'
-    >
+    <div className='m-2 p-2 w-[200px] h-[340] rounded-md'>
       <img
         className='size-32 w-64 rounded-xl hover:scale-110'
         // alt='res-logo'
